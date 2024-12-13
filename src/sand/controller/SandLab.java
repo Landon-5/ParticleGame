@@ -2,6 +2,7 @@ package sand.controller;
 
 import java.awt.*;
 import java.util.*;
+import sand.view.SandDisplay;
 
 public class SandLab
 {
@@ -31,7 +32,7 @@ public class SandLab
     names[METAL] = "Metal";
     
     //1. Add code to initialize the data member grid with same dimensions
-    
+    grid = new int[numRows][numCols];
     
     display = new SandDisplay("Falling Sand", numRows, numCols, names);
   }
